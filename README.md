@@ -1,2 +1,3 @@
-# dummy-theme-site
-Barebones design theme for developers
+# Dummy theme (site)
+
+Barebones design theme for developers.
