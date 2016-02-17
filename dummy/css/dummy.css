@@ -692,6 +692,13 @@ p {
 p:first-child {
   margin-top: 0;
 }
+select {
+  width: 200px;
+  padding: 8px 0;
+  border: 1px solid rgba(0,0,0,0.1);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
 input[type="text"],
 input[type="search"],
 input[type="password"],
@@ -1193,7 +1200,7 @@ body {
   font-weight: bold;
   border-color: #638392;
 }
-.s-site-wrapper .s-main-container .s-sidebar-wrapper .s-sidebar-block .s-nav-wrapper > ul li.is-selected > .s-sub-menu {
+.s-site-wrapper .s-main-container .s-sidebar-wrapper .s-sidebar-block .s-nav-wrapper > ul li.is-selected > ul {
   display: block;
 }
 .s-site-wrapper .s-main-container .s-sidebar-wrapper .s-sidebar-block .s-nav-wrapper > ul li > a {
@@ -1378,11 +1385,10 @@ body {
 }
 .s-site-wrapper .s-main-container .s-content-wrapper .s-content-block .s-profile-wrapper .wa-form .wa-field .wa-value .field input {
   vertical-align: middle;
+  margin: 0 0 0 8px;
 }
 .s-site-wrapper .s-main-container .s-content-wrapper .s-content-block .s-profile-wrapper .wa-form .wa-field .wa-value .field select {
-  width: 60%;
-  max-width: 60%;
-  margin: 0 0 0 1em;
+  margin: 0 0 0 8px;
 }
 .s-site-wrapper .s-footer-wrapper .s-footer-block {
   width: 980px;
